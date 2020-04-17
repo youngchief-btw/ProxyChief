@@ -1,0 +1,14 @@
+{
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "node src/ProxyChief",
+  "scripts": {
+    "start": "node src/ProxyChief.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "unblocker": "^2.0.5",
+    "http-proxy": "^1.18.0"
+  }
+}
