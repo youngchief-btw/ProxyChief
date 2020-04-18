@@ -1,4 +1,3 @@
 https://proxychief.glitch.me:443/
 https://proxychief.glitch.me:3000/
 http://proxychief.glitch.me:3000/
-https://proxychief.now.sh:443/
