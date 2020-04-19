@@ -23,7 +23,7 @@ function miniCPU() {
 // https.createServer(null, app).listen(443);
 
 // this must be one of the first app.use() calls and must not be on a subdirectory to work properly
-app.use(new Unblocker({ prefix: "/proxy/" }));
+app.use(new Unblocker({ prefix: "/@/" }));
 app.get("/@/", function(req, res) {
   miniCPU();
 });
