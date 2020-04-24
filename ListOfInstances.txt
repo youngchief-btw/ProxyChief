@@ -12,3 +12,6 @@ http://funky-moored-echidna.glitch.me:3000/
 https://hollow-spiced-kookaburra.glitch.me:443/
 https://hollow-spiced-kookaburra.glitch.me:3000/
 http://hollow-spiced-kookaburra.glitch.me:3000/
+https://breezy-glossy-relation.glitch.me:443/
+https://breezy-glossy-relation.glitch.me:3000/
+https://breezy-glossy-relation.glitch.me:3000/
