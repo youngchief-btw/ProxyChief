@@ -21,3 +21,6 @@ http://north-cactus-midnight.glitch.me:3000/
 https://shared-elemental-pleasure.glitch.me:443/
 https://shared-elemental-pleasure.glitch.me:3000/
 http://shared-elemental-pleasure.glitch.me:3000/
+https://proxychief0.glitch.me:443/
+https://proxychief0.glitch.me:3000/
+http://proxychief0.glitch.me:3000/
