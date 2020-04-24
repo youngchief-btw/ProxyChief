@@ -10,17 +10,14 @@ const unblocker = Unblocker({});
 const express = require("express");
 const app = express();
 const httpProxy = require("http-proxy");
-var proxy = httpProxy.createProxyServer({});
+// var proxy = httpProxy.createProxyServer({});
 
 function miniCPU() {
-  // This function lowers memory, disk?, and CPU on request
+  // This function lowers memory, disk, and CPU on request
   process.exit();
   process.kill();
   process.abort();
 }
-
-// http.createServer(app).listen(80);
-// https.createServer(null, app).listen(443);
 
 // this must be one of the first app.use() calls and must not be on a subdirectory to work properly
 app.use(new Unblocker({ prefix: "/@/" }));
@@ -35,8 +32,3 @@ app.get("/", function(req, res) {
 });
 
 app.listen(8080);
-
-// app.listen = function() {
-//   var server = http.createServer(this);
-//   return server.listen.apply(server, arguments);
-// };
