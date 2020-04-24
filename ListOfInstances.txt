@@ -15,3 +15,6 @@ http://hollow-spiced-kookaburra.glitch.me:3000/
 https://breezy-glossy-relation.glitch.me:443/
 https://breezy-glossy-relation.glitch.me:3000/
 https://breezy-glossy-relation.glitch.me:3000/
+https://north-cactus-midnight.glitch.me:443/
+https://north-cactus-midnight.glitch.me:3000/
+http://north-cactus-midnight.glitch.me:3000/
