@@ -9,3 +9,6 @@ https://pr0xy1--jtnexus.repl.co:80/
 https://funky-moored-echidna.glitch.me:443/
 https://funky-moored-echidna.glitch.me:3000/
 http://funky-moored-echidna.glitch.me:3000/
+https://hollow-spiced-kookaburra.glitch.me:443/
+https://hollow-spiced-kookaburra.glitch.me:3000/
+http://hollow-spiced-kookaburra.glitch.me:3000/
