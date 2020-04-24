@@ -4,3 +4,5 @@ http://proxychief.glitch.me:3000/
 https://kfc-hal.glitch.me:443/
 https://kfc-hal.glitch.me:3000/
 http://kfc-hal.glitch.me:3000/
+https://pr0xy1--jtnexus.repl.co:443/
+https://pr0xy1--jtnexus.repl.co:80/
