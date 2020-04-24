@@ -1,3 +1,6 @@
 https://proxychief.glitch.me:443/
 https://proxychief.glitch.me:3000/
 http://proxychief.glitch.me:3000/
+https://kfc-hal.glitch.me:443/
+https://kfc-hal.glitch.me:3000/
+http://kfc-hal.glitch.me:3000/
