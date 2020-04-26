@@ -27,3 +27,9 @@ Format for entries: `protocol://domain:port/`
 Run your own instance:
 
 Run `wget -O proxychief.zip https://github.com/youngchief-btw/ProxyChief/archive/master.zip` (I recommend doing `git clone https://github.com/youngchief-btw/ProxyChief.git` instead to pull in the latest changes)
+
+---
+
+Or run on gitpod:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/youngchief-btw/Proxychief)
