@@ -7,5 +7,5 @@ ports:
     onOpen: notify
 
 tasks:
-  - init: npm install pnpm && pnpm install # runs during prebuild
+  - init: npm install # runs during prebuild
     command: npm start
