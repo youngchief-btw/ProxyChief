@@ -27,3 +27,5 @@ http://proxychief0.glitch.me:3000/
 https://pr0xy2.glitch.me:443/
 https://pr0xy2.glitch.me:3000/
 https://pr0xy2.glitch.me:3000/
+https://pro-proxy.glitch.me:443/
+http://pro-proxy.glitch.me:80/
