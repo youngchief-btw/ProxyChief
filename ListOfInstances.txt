@@ -1,2 +1,2 @@
 https://pr0xy1--jtnexus.repl.co:443/
-https://pr0xy1--jtnexus.repl.co:80/
+http://pr0xy1--jtnexus.repl.co:80/
