@@ -20,14 +20,14 @@ function miniCPU() {
 }
 
 // this must be one of the first app.use() calls and must not be on a subdirectory to work properly
-app.use(new Unblocker({ prefix: "/dd603276-6426-4e9f-a787-f037f7a8cd40/" }));
+app.use(new Unblocker({ prefix: "/@/" }));
 app.get("/@/", function(req, res) {
   miniCPU();
 });
 
 app.get("/", function(req, res) {
   res.send(
-    '<style>*{font-family: sans-serif;}</style><h1>ProxyChief</h1>Proxy Format: <b>/dd603276-6426-4e9f-a787-f037f7a8cd40/SITE-TO-VISIT</b><hr><p><strong>Made by <a href="https://github.com/youngchief-btw">youngchief btw ツ</a>, with ❤️</strong></p><hr><p><strong>This proxy is made to be the very best, and is super lightweight.</strong></p><hr><p><strong><em>Access using any of these <a href="https://github.com/youngchief-btw/ProxyChief/blob/master/ListOfInstances.txt">URLs</a></em></strong></p>'
+    '<style>*{font-family: sans-serif;background-color:black;color:aqua;}</style><center><h1>ProxyChief</h1><hr/><h2>HTTP & HTTPS Proxy. <br/>More protocols, coming soon.</h2><hr/><h3>Proxy Format: <b><a href="/@/example.com">/@/https://youngchief.tk/</a></b></h3><hr><p><strong>This proxy is made to be the very best, and is super lightweight, secure, and speedy.<br/><a href="https://github.com/youngchief-btw/ProxyChief">Want to see the GitHub?</a></strong><br/><strong>Access ProxyChief using any of these <a href="https://github.com/youngchief-btw/ProxyChief/blob/master/ListOfInstances.txt">URLs</a></strong></p><hr/><strong>Made by <a href="/@/https://youngchief.tk/">youngchief btw ツ</a>, with ❤️</strong></center>'
   );
 });
 
