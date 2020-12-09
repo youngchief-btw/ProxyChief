@@ -11,6 +11,7 @@ const express = require("express");
 const app = express();
 const httpProxy = require("http-proxy");
 // var proxy = httpProxy.createProxyServer({});
+const { exec } = require("child_process");
 
 function miniCPU() {
   // This function lowers memory, disk, and CPU on request
@@ -32,3 +33,18 @@ app.get("/", function(req, res) {
 });
 
 app.listen(process.env.PORT);
+
+setInterval(function() {
+	// Self-updating
+	exec("git pull && git fetch", (error, stdout, stderr) => {
+		if (error) {
+			console.log(`${error.message}`);
+			return;
+		}
+		if (stderr) {
+				console.log(`${stderr}`);
+				return;
+		}
+		console.log(`${stdout}`);
+	});
+}, 60000)
