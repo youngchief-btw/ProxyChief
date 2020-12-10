@@ -34,7 +34,7 @@ app.get("/", function(req, res) {
 
 app.listen(process.env.PORT);
 
-setInterval(function() {
+setInterval(async function() {
 	// Self-updating
 	exec("git pull && git fetch", (error, stdout, stderr) => {
 		if (error) {
