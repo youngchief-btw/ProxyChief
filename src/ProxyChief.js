@@ -47,4 +47,4 @@ setInterval(async function() {
 		}
 		console.log(`${stdout}`);
 	});
-}, 60000)
+}, 21600000)
