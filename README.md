@@ -30,6 +30,6 @@ Run `wget -O proxychief.zip https://github.com/youngchief-btw/ProxyChief/archive
 
 ---
 
-Or run on gitpod:
-
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/youngchief-btw/Proxychief)
+
+[![Run on Repl.it](https://repl.it/badge/github/youngchief-btw/ProxyChief)](https://repl.it/github/youngchief-btw/ProxyChief)
